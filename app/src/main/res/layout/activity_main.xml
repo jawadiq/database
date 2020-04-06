@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1800px"
+    android:orientation="vertical"
+    android:padding="25px"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="395dp"
+        android:layout_height="120dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/desease"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Disease"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tepra"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Temprature"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/blood"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="BP"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/heart"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Heart Rate"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/saver"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/moder"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:text="Modify" />
+
+    <Button
+        android:id="@+id/deller"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:text="Delete" />
+</LinearLayout>
